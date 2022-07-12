@@ -11,7 +11,7 @@ body{
 }
 
 .navbar .nav-item .active{
-    border-bottom: #f0e68c 3px solid;
+    border-bottom: #f0e68c 2px solid;
 }
 
 li:after {
