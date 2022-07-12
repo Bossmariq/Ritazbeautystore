@@ -11,8 +11,22 @@ body{
 }
 
 .navbar .nav-item .active{
-    border-left: #444 3px solid;
+    border-bottom: #f0e68c 3px solid;
 }
+
+li:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0px;
+    background: transparent;
+    transition: width .7s ease, background-color .7s ease;
+  }
+  li:hover:after {
+    width: 100%;
+    background: #f0e68c;
+  }
 
 .fine-text{
     font-family: 'Sacramento', cursive;
