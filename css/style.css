@@ -32,6 +32,10 @@ li:after {
     font-family: 'Sacramento', cursive;
     border: 2px solid #f0e68c;
 }
+.fine-textt{
+    font-family: 'Sacramento', cursive;
+    border-bottom: 2px solid #f0e68c;
+}
 
 .showcase {
     position: relative;
@@ -52,5 +56,60 @@ li:after {
 .best-sellers .card{
     background-color: #F6F6F6;
 }
+.best-sellers i:hover{color: #000;}
 
 .gold-color {color: #f0e68c;}
+
+
+.hair-bg {
+    background-color: #F6F6F6;
+}
+
+/* WAVY */
+
+.wavy {
+    border: 2px solid #f0e68c;
+}
+
+.wavyy{
+    position: relative;
+    min-height: 550px;
+    background: url('../img/IMG_6.jpg') no-repeat center center/cover;
+    text-align: center;
+}
+.wavyy i {
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 240px;
+}
+.wavvy2 {margin-top: 170px;}
+
+/* WHAT WE OFFER */
+
+#offers{
+    background-color: #F6F6F6;
+}
+#offers i {
+    color: #ffcc33;
+    font-size: 2rem;
+}
+#offers h4{
+    font-weight: 700;
+}
+
+/* FOOTERS */
+
+.footer-links a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links p{ font-size: .9em;}
+.footer-links a:hover{ color: #bebebe;}
+.social-icon i {
+    margin-right: 1rem;
+    color: #bebebe;
+}
+
+#video-play a { color: #fff;}
+#video-play a { color: #444;}
