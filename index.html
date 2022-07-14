@@ -18,7 +18,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="css/style.css">
-  <title>RitazbeautyStore Website</title>
+  <title>Bootstrap Theme</title>
 </head>
 
 <body>
@@ -37,14 +37,22 @@
           <li class="nav-item">
             <a href="index.html" class="nav-link active">Home</a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Shop</a>
+          <li class="nav-item dropdown">
+            <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">
+              Shop
+            </a>
+            <div class="dropdown-menu dropdown1">
+              <a href="straight-hairs.html" class="dropdown-item text-light">Straight</a>
+              <a href="bouncy-hairs.html" class="dropdown-item text-white"> Bouncy</a>
+              <a href="wavy-hair.html" class="dropdown-item text-light">Wavy</a>
+              <a href="curly-hair.html" class="dropdown-item text-white"> Curly</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a href="services.html" class="nav-link">Wishlist</a>
+            <a href="cart.html" class="nav-link">CART</a>
           </li>
           <li class="nav-item">
-            <a href="blog.html" class="nav-link">Blog & FAQ</a>
+            <a href="faq.html" class="nav-link">Blog & FAQ</a>
           </li>
           <li class="nav-item">
             <a href="contact.html" class="nav-link">Contact Us</a>
@@ -80,22 +88,24 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-6 mb-3">
         <div class="card p-2">
-          <a href="./img/IMG_1.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="./img/IMG_1.jpg" style="height: 20rem;" alt="" class="card-img-top"></a>
+          <a href="./img/straight-4.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="./img/straight-4.jpg" style="height: 16rem;" alt="" class="card-img-top">
+          </a>
           <div class="card-body">
             <div class="card-title">Lorem, ipsum dolor.</div>
             <div class="card-text">
               <div class="row">
                 <div class="col-sm-8">Price: $200</div>
                 <div class="col-sm-2">
-                  <a href="#" class="text-muted" data-toggle="tooltip" data-bs-placement="top" title="Like">
-                    <i class="fa-solid fa-heart"></i>
+                  <a href="#" data-toggle="tooltip" data-placement="top" title="Like">
+                    <i class="fa-solid fa-heart text-muted"></i>
                   </a>
                 </div>
                 <div class="col-sm-2">
-                  <a href="#" class="text-muted" data-toggle="tooltip" data-bs-placement="top" title="Add To Cart">
-                    <i class="fa-solid fa-cart-arrow-down"></i>
+                  <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart">
+                    <i class="fa-solid fa-cart-arrow-down text-muted"></i>
                   </a>
                 </div>
               </div>
@@ -106,10 +116,10 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-6 mb-3">
         <div class="card p-2">
-          <a href="./img/IMG_3.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-            <img src="./img/IMG_3.jpg" style="height: 20rem;" alt="" class="card-img-top">
+          <a href="./img/bouncy-3.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="./img/bouncy-3.jpg" style="height: 16rem;" alt="" class="card-img-top">
           </a>
           <div class="card-body">
             <div class="card-title">Lorem, ipsum dolor.</div>
@@ -134,10 +144,10 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-6 mb-3">
         <div class="card p-2">
-          <a href="./img/IMG_4.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-            <img src="./img/IMG_4.jpg" style="height: 20rem;" alt="" class="card-img-top">
+          <a href="./img/curly-2.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="./img/curly-2.jpg" style="height: 16rem;" alt="" class="card-img-top">
           </a>
           <div class="card-body">
             <div class="card-title">Lorem, ipsum dolor.</div>
@@ -162,10 +172,10 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-6 mb-3">
         <div class="card p-2">
-          <a href="./img/IMG_6.jpg" data-toggle="lightbox" data-gallery="img-gallery">
-            <img src="./img/IMG_6.jpg" style="height: 20rem;" alt="" class="card-img-top">
+          <a href="./img/wavy-2.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="./img/wavy-2.jpg" style="height: 16rem;" alt="" class="card-img-top">
           </a>
           <div class="card-body">
             <div class="card-title">Lorem, ipsum dolor.</div>
@@ -193,7 +203,27 @@
     </div>
     <div class="row py-4">
       <div class="d-grid gap-2 col-3 mx-auto">
-        <a href="#" class="btn btn-secondary">View All <i class="fa-solid fa-angles-right ms-1"></i></a>
+        <a href="straight-hairs.html" class="btn btn-secondary">View All <i class="fa-solid fa-angles-right ms-1"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOUNCY HAIRS -->
+
+<section id="wavy" class="py-5">
+  <div class="container">
+    <div class="row wavy">
+      <div class="col-md-6 wavyy">
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#videoModal">
+          <i class="fa-solid fa-circle-play d-none"></i>
+        </a>
+      </div>
+      <div class="col-md-6 text-center wavvy2">
+        <p class=" text-muted mb-4">#1 VIRGIN HAIR BRAND</p>
+        <h4 class="display-5 mb-4">Love Is In The Hair</h4>
+        <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, delectus?</p>
+        <a href="#" class="btn btn-outline-secondary">View More</a>
       </div>
     </div>
   </div>
@@ -219,20 +249,20 @@
       </div>
       <div class="col-md-6">
         <div class="row mb-3 gx-5">
-          <div class="col-md-6 hair-bg pt-5 justify-content-center text-center">
-            <h3 class="mt-4"><strong>Straight Hairs</strong></h3>
+          <div class="col-md-6 hair-bg justify-content-center text-center">
+            <h3><strong>Bouncy Hairs</strong></h3>
             <p class="text-muted">The best deals</p>
           </div>
           <div class="col-md-6">
-            <img src="./img/IMG_20220712_045134_137.jpg" alt="" class="img-fluid">
+            <img src="./img/bouncy-6.jpg" alt="" class="img-fluid">
           </div>
         </div>
         <div class="row gx-5">
           <div class="col-md-6">
-            <img src="./img/IMG_20220712_045051_8100.jpg" alt="" class="img-fluid">
+            <img src="./img/curly-5.jpg" alt="" class="img-fluid">
           </div>
-          <div class="col-md-6 hair-bg pt-5  justify-content-center text-center">
-            <h3 class="mt-4"><strong>Wavy Hairs</strong></h3>
+          <div class="col-md-6 hair-bg justify-content-center text-center">
+            <h3><strong>Curly Hairs</strong></h3>
             <p class="text-muted">Our products are top tier</p>
           </div>
         </div>
@@ -241,48 +271,27 @@
   </div>
 </section>
 
-<!-- WAVY SECTION -->
+<!-- STRAIGHT SECTION -->
 
-<section id="wavy" class="py-5">
+<section id="straight-hair" class="straight-hair py-5">
   <div class="container">
-    <div class="row wavy">
-      <div class="col-md-6 wavyy">
-        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#videoModal">
-          <i class="fa-solid fa-circle-play d-none"></i>
-        </a>
+    <div class="row straight g-0">
+      <div class="col-md-6">
+        <div class="row  straight-1 gx-0"></div>
       </div>
-      <div class="col-md-6 text-center wavvy2">
-        <p class=" text-muted mb-4">#1 VIRGIN HAIR BRAND</p>
-        <h4 class="display-5 mb-4">Love Is In The Hair</h4>
-        <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, delectus?</p>
-        <a href="#" class="btn btn-outline-secondary">View More</a>
+      <div class="col-md-6 straight-2">
+        <div class="primary-overlay">
+          <div class="col-md-10 text-end text-white ms-auto straightt">
+            <h2 class="mb-4">SILKY SOFT LUXURIOUS STRAIGHT HAIRS</h3>
+            <p class="lead mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil commodi culpa ab. Doloribus, aliquid nisi.</p>
+            <a href="#" class="btn btn-outline-light">View More</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
- <!-- VIDEO PLAY -->
-
-
-<!-- Modal -->
-<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Wavy Hairs</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <video id="" width="100%" height="400px" controls poster="video/thumb.jpg">
-          <source src="./img/WhatsApp Video.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- WHY CHOOSE US -->
 
@@ -335,24 +344,24 @@
       </div>
       <div class="col-md-6 col-lg-3 d-none d-md-block">
         <h5 class="mb-3">Shopping And Categories</h5>
-        <p><a href="#">Straight Hairs</a></p>
-        <p><a href="#">Wavy Hairs</a></p>
-        <p><a href="#">Curly Hairs</a></p>
-        <p><a href="#">Bouncy Hairs</a></p>
+        <p><a href="straight-hairs.html">Straight Hairs</a></p>
+        <p><a href="wavy-hair.html">Wavy Hairs</a></p>
+        <p><a href="curly-hair.html">Curly Hairs</a></p>
+        <p><a href="bouncy-hairs.html">Bouncy Hairs</a></p>
       </div>
       <div class="col-md-6 col-lg-3">
         <h5 class="mb-3">Useful Links</h5>
         <p><a href="#">Home</a></p>
         <p><a href="#">Shop</a></p>
-        <p><a href="#">Wishlist</a></p>
+        <p><a href="cart.html">Wishlist</a></p>
         <p><a href="#">Contact Us</a></p>
       </div>
       <div class="col-md-6 col-lg-3 d-none d-md-block">
         <h5 class="mb-3">Help And Information</h5>
-        <p><a href="#">Blog</a></p>
+        <p><a href="faq.html">Blog</a></p>
         <p><a href="#">About Us</a></p>
         <p><a href="#">Shipping</a></p>
-        <p><a href="#">FAQ</a></p>
+        <p><a href="faq.html">FAQ</a></p>
       </div>
     </div>
     <hr>
@@ -388,10 +397,15 @@
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
 
-    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
 
-
+    
+            $(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
   </script>
 </body>
 
