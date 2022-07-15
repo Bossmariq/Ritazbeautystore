@@ -281,4 +281,12 @@ li:after {
         width: 100%;
     }
     .straightt{ padding-top: 130px; padding-right: 0;}
+
+    /* STRAIGHT HAIRS PAGE */
+
+    .wavvy3 {
+        position: relative;
+        min-height: 400px;
+        background: url('../img/IMG_20220712_045147_327.jpg') no-repeat center center/cover;
+    }
 }
