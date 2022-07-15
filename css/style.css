@@ -313,5 +313,13 @@ li:after {
         min-height: 400px;
         background: url('../img/IMG_20220712_045051_800.jpg') no-repeat center center/cover;
     }
-
+    
+/*   CARTS   */
+    /* CART PAGE */
+    .coming {
+        height: 500px;
+        width: 100%;
+        position: relative;
+        background: url('../img/coming-2.jpg') no-repeat center center/cover;
+    }
 }
