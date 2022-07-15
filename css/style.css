@@ -289,4 +289,29 @@ li:after {
         min-height: 400px;
         background: url('../img/IMG_20220712_045147_327.jpg') no-repeat center center/cover;
     }
+
+     /* BOUNCY HAIRS PAGE */
+
+     .bouncy-s {
+        position: relative;
+        min-height: 400px;
+        background: url('../img/IMG_6.jpg') no-repeat center center/cover;
+    }
+
+    /* CURLY HAIRS PAGE */
+
+    .curly-s {
+        position: relative;
+        min-height: 400px;
+        background: url('../img/curly-8.jpg') no-repeat center center/cover;
+    }
+
+    /* WAVY HAIRS */
+
+    .wavy-s {
+        position: relative;
+        min-height: 400px;
+        background: url('../img/IMG_20220712_045051_800.jpg') no-repeat center center/cover;
+    }
+
 }
